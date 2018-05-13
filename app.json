@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "识狗君",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "img/icon_camera.png",
+        "selectedIconPath": "img/icon_camera.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "社区",
+        "iconPath": "img/icon_tabbar.png",
+        "selectedIconPath": "img/icon_tabbar.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "img/icon_man.png",
+        "selectedIconPath": "img/icon_man.png"
+      }
+    ]
+  }
+}
