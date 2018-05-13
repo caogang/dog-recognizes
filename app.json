@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/pop/pop"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,6 +29,12 @@
       {
         "pagePath": "pages/user/user",
         "text": "我的",
+        "iconPath": "img/icon_man.png",
+        "selectedIconPath": "img/icon_man.png"
+      },
+      {
+        "pagePath": "pages/pop/pop",
+        "text": "弹窗",
         "iconPath": "img/icon_man.png",
         "selectedIconPath": "img/icon_man.png"
       }

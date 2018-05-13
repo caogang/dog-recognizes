@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
 	"appid": "wxbe3806a2b15b4afd",
-	"projectname": "weixin",
+	"projectname": "dog_recog",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

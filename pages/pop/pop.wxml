@@ -1,0 +1,16 @@
+<!--触发弹出层：bindtap="show"-->
+ <view class="fenxiang-box">
+    <button bindtap="show" class="fenxiang-btn">点击此按钮弹出弹窗</button>
+</view>
+
+
+<!--弹出层内容，其中的“我知道”中绑定让弹出层消失的函数：bindtap="hide"-->
+<view class="modal-box" hidden="{{flag}}" bindtap="hide">
+
+<view class="modal-body">
+  <view class="modal-content">
+    <button class="knowBtn" bindtap="hide">拉布拉多犬
+    </button>
+  </view>
+  </view>
+</view>
